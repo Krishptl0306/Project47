@@ -1,0 +1,45 @@
+h3{
+    background-color: rgb(0, 128, 255);
+    color: rgb(255, 0, 225);
+}
+a{
+    border: solid;
+}
+body{
+    background-color: rgb(0, 251, 151);
+}
+.header{
+
+    background-color: rgb(255, 255, 255);
+}
+.element{
+    background-color: rgb(0, 204, 255);
+    display:flex;
+;
+}
+ .item{
+    display: flex;
+
+} 
+.link{
+    border: solid;
+    margin: 30px;
+    padding: 20px;
+}
+a:link{
+    color: rgb(67, 76, 250);
+}
+a:visited{
+    color: #00f7ff;
+}
+
+.item h3{  
+    
+    top: 30%;
+    left: 30%;
+    transform: translate(-20%,-30%); 
+    opacity: 0;
+}
+.item:hover img{
+    opacity: 0.33;
+}
